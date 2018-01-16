@@ -25,6 +25,8 @@ dependencies {
     implementation 'com.jakewharton:butterknife:8.8.1'
     implementation 'com.google.zxing:core:3.3.0'
     implementation 'com.google.zxing:android-core:3.3.0'
+    //这个是使用严振杰的开源的权限管理库，当然你也可以自己写（因为扫码需要使用相机权限，参考6.0之后的动态请求权限）
+    compile 'com.yanzhenjie:permission:1.1.2'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
